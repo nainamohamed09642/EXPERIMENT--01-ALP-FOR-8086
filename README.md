@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+## Name : NAINA MOHAMED Z
+## Roll no : 212223230131
+## Date of experiment : 07/03/2025
 
 
 
@@ -78,24 +78,103 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+MOV AL,32H
+MOV BL,66H
+add AL,BL
+HLT
+```
 
 
 
 ## Output  
- 
+ ![Screenshot 2025-03-07 131801](https://github.com/user-attachments/assets/e4f0b76b-ec6b-4f29-a338-a5ecead21820)
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+MOV AL,32H
+MOV BL,66H
+sub AL,BL
+HLT
+```
 ## Output  
+![Screenshot 2025-03-07 132140](https://github.com/user-attachments/assets/f325eec1-a69d-41c7-9a12-fa49c18e4d68)
+
 ## Multiplication alp 
- ## Output  
+ ```
+MOV AL,32H
+MOV BL,66H
+mul AL
+HLT
+```
+ ## Output
+ ![Screenshot 2025-03-07 132402](https://github.com/user-attachments/assets/10b1a936-8904-47d2-a5ac-20839d3336d9)
+
 
 
 ## Division alp 
+ ```
+MOV AL,32H
+MOV BL,66H
+div AL
+HLT
+```
 
 ## Output  
+![Screenshot 2025-03-07 132533](https://github.com/user-attachments/assets/8fba6c28-295f-480d-aceb-de542435f7e2)
 
+## AND OPERATION of 8 bit ALP
+```
+MOV AL,32H
+MOV BL,66H
+and AL,BL
+HLT
+```
+## Output
+![Screenshot 2025-03-07 132625](https://github.com/user-attachments/assets/eb93b1eb-9ab9-46bb-bec6-74562176c4d9)
+
+## OR OPERATION of 8 bit ALP
+```
+MOV AL,32H
+MOV BL,66H
+or AL,BL
+HLT
+```
+## Output
+![Screenshot 2025-03-07 132711](https://github.com/user-attachments/assets/a932c654-5fab-41f4-9b95-f532757ff965)
+## NOT OPERATION of 8 bit ALP
+```
+MOV AL,32H
+not AL
+HLT
+```
+## Output
+![Screenshot 2025-03-07 132913](https://github.com/user-attachments/assets/fc81c134-2814-4b0f-9955-ee353a606dab)
+
+## NAND OPERATION of 8 bit ALP
+```
+MOV AL,32H
+MOV BL,66H
+AND AL,BL
+not AL
+HLT
+```
+## Output
+![Screenshot 2025-03-07 133021](https://github.com/user-attachments/assets/08b3c580-be28-41ad-99c4-a39b15ac3cce)
+
+## XOR OPERATION of 8 bit ALP
+```
+MOV AL,32H
+MOV BL,66H
+OR AL,BL
+not AL
+HLT
+```
+## Output
+![Screenshot 2025-03-07 133120](https://github.com/user-attachments/assets/25ac85ae-c903-42fc-87e8-4d5993b04cf0)
 
 ## Result :
+Thus Writing and execution ALP on fundamental arithmetic and logical operations have been done and verified. 
+
  
 
 
